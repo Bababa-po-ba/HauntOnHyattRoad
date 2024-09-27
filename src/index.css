@@ -1,0 +1,62 @@
+/* index.css */
+
+
+.background-house {
+  background-image: url("images/mansion.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensures the background fills the full viewport height */
+  width: 100%; /* Ensures the background fills the full viewport width */
+  background-attachment: fixed;
+
+}
+
+#root {
+  background-color: rgba(0, 0, 0, 0.904);
+  margin-top: 85%;
+  height: 100%;
+  clip-path: polygon(
+  00% 00%,
+  0% 5%,
+  50% 0,
+  190% 15%,
+  100% 80%,
+  100% 100%,
+  0% 100%,
+  0% 100%);
+}
+
+.gradient {
+  width: 100%;
+  background: linear-gradient(to top,#59a581, transparent);
+  position: absolute;
+  
+}
+
+
+a img{
+  width: 15px;
+  padding:10px 5px;
+  transition: .1s;
+  position:static;
+}
+
+.envolope{
+  padding-top: 11px;
+  padding-bottom: 8px;
+}
+
+a img:hover{
+  width: 16px;
+  opacity: .5;
+}
+
+footer{
+  background-color: #5e8573;
+  height: 40px;
+}
+
