@@ -44,7 +44,7 @@ function CountdownTimer() {
 function App() {
   return (
     <div>
-      <img src="images/main-logo-v2.png" alt="" id="main-logo-v2"></img>
+      <img src="images/main-logo-v3.png" alt="" id="main-logo-v2"></img>
       <section className="timer">
         <CountdownTimer />
       </section>
