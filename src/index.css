@@ -18,7 +18,7 @@
 #root {
   background-color: rgba(0, 0, 0, 0.904);
   margin-top: 85%;
-  height: 100%;
+  height: 140%;
   clip-path: polygon(
   00% 00%,
   0% 5%,
@@ -56,7 +56,7 @@ a img:hover{
 }
 
 footer{
-  background-color: #5e8573;
+  background-color: #68AC68;
   height: 40px;
 }
 

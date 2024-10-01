@@ -2,8 +2,29 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 108px;
-    width: 60%;
+    padding-top: 90px;
+    width: 70%;
+}
+
+#donatebutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+}
+
+
+#bottomdonate a{
+    margin: 20px;
+}
+
+#eventdates{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-bottom: 30px;
 }
 
 #mid-bg {
@@ -14,14 +35,14 @@
 }
 
 .time span {
-    font-family: "Lora", serif;
-    font-weight: bolder;
-    font-size: 50px;
-    color:#0df187c5
+    font-family: "Teko", system-ui;
+    font-weight: light;
+    font-size: 60px;
+    color:#68AC68
 }
 
 .time {
-    padding:  150px 0;
+    padding:  120px 0;
     text-align: center;
     background:  radial-gradient(closest-side at 50% 50%, #23b97d46, rgba(0, 0, 0, 0));
 }
@@ -29,12 +50,12 @@
 .quote{
     font-family: "Teko", sans-serif;
     font-weight: bolder;
-    color: #547d6a;
+    color: #f1daad;
     text-align: center;
     font-size: 25px;
     margin-left: 30px;
     margin-right: 30px;
-    border: #547d6a;
+    border: #68AC68;
 
 }
 
@@ -42,7 +63,7 @@
     font-family: "Teko", sans-serif;
     color: #f1daad;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 70px;
     margin-left: 50px;
     margin-right: 50px;
@@ -61,7 +82,7 @@
     font-family: "Lora", serif;
     font-weight: 500;
     font-size: 15px;
-    color: #547d6a;
+    color: #68AC68;
     text-align: left;
     
 }
@@ -77,19 +98,21 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 30%;
-    color: #547d6a;
+    padding-bottom: 30px;
+    color: #68AC68;
     text-align: left;
 }
 
 .mid-content {
-    position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
 }
 
 iframe{
-    position: absolute;
     top: 10px;
     right: 10px;
     width: 200px;
-    height: 150px;
+    height: 100px;
 }
