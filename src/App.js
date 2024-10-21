@@ -78,7 +78,7 @@ function App() {
       <section>
         <div className="eventdates">
           {" "}
-          <img src="images/eventdates2.png" alt="" id="eventdates"></img>
+          <img src="images/EventDates2.png" alt="" id="eventdates"></img>
         </div>
       </section>
       <section>
