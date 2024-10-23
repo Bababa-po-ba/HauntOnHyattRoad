@@ -1,4 +1,4 @@
-#main-logo-v3{
+#main-logo-v2{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,8 +15,15 @@
 }
 
 
-#bottomdonate a{
-    margin: 20px;
+
+.bottombutton{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+
+.bottom {
+    background: linear-gradient(to top,#35d38910, transparent);
 }
 
 #eventdates{
@@ -94,7 +101,7 @@
     border-top: #313131 2px;
     border-top-style: solid;  
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;

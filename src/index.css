@@ -16,7 +16,7 @@
 }
 
 #root {
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: rgba(0, 0, 0, 0.897);
   margin-top: 85%;
   height: 140%;
   clip-path: polygon(
@@ -32,7 +32,7 @@
 
 .gradient {
   width: 100%;
-  background: linear-gradient(to top,#59a581, transparent);
+  background: linear-gradient(to top,#7ae9b5, transparent);
   position: absolute;
   
 }
@@ -60,3 +60,11 @@ footer{
   height: 40px;
 }
 
+
+
+/* Disable for iOS or smaller screens */
+@media only screen and (max-width: 1024px) {
+  body {
+    background-attachment: scroll;
+  }
+}

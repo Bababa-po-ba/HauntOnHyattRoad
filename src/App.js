@@ -65,7 +65,7 @@ function App() {
         Your browser does not support the audio element.
       </audio>
 
-      <img src="images/main-logo-v3.png" alt="" id="main-logo-v3"></img>
+      <img src="images/main-logo-v2.png" alt="" id="main-logo-v2"></img>
       <a
         href="https://www.gofundme.com/f/445uqm-support-our-community-halloween-celebration?attribution_id=sl:dd41ca73-eb1e-413d-9d00-0f71314560a8&utm_campaign=man_sharesheet_ft&utm_content=amp8_c&utm_medium=customer&utm_source=native_options"
         className="donate-button"
@@ -78,7 +78,7 @@ function App() {
       <section>
         <div className="eventdates">
           {" "}
-          <img src="images/EventDates2.png" alt="" id="eventdates"></img>
+          <img src="images/eventdates.png" alt="" id="eventdates"></img>
         </div>
       </section>
       <section>
@@ -121,16 +121,18 @@ function App() {
               Through this effort, we are committed to leaving a positive impact
               on our community. If you'd like to support our endeavors, please
               do not hesitate to click the donate button.
+              
             </p>
-            <div className="bottomdonate">
+            <div className="bottom">
               <a href="https://www.gofundme.com/f/445uqm-support-our-community-halloween-celebration?attribution_id=sl:dd41ca73-eb1e-413d-9d00-0f71314560a8&utm_campaign=man_sharesheet_ft&utm_content=amp8_c&utm_medium=customer&utm_source=native_options">
-                <img
+                <img 
                   src="images/donatebutton.png"
                   alt=""
                   id="donatebutton"
+                  className="bottombutton"
                 ></img>
               </a>
-            </div>
+              </div>
           </section>
         </section>
       </section>
